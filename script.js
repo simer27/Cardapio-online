@@ -13,3 +13,7 @@ const addressWarn = document.getElementById("address-warn");
 cartBtn.addEventListener("click", function() {
   cartModal.style.display = "flex";
 })
+
+closeModalBtn.addEventListener("click", function() {
+  cartModal.style.display = "none";
+})
