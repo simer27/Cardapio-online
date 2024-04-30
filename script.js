@@ -17,3 +17,9 @@ cartBtn.addEventListener("click", function() {
 closeModalBtn.addEventListener("click", function() {
   cartModal.style.display = "none";
 })
+
+cartModal.addEventListener("click", function(event) {
+  if (event.target=== cartModal) {
+    cartModal.style.display = "none";
+  }
+})
